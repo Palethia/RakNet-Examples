@@ -1,0 +1,23 @@
+{
+    "name": "palethia/raknet-examples",
+    "authors": [
+        {
+            "name": "vp817",
+            "email": "vpmcssscontact@gmail.com"
+        },
+        {
+            "name": "Laith98Dev",
+            "email": "spt.laithdev@gmail.com"
+        }
+    ],
+    "require": {
+        "palethia/raknet": "^1.0",
+        "pocketmine/bedrock-protocol": "^35.0"
+    },
+    "license": "GPL-3",
+    "autoload": {
+        "psr-4": {
+            "Palethia\\RaknetExamples\\": "src/"
+        }
+    }
+}
