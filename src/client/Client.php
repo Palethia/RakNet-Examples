@@ -11,7 +11,7 @@ class Client extends RakClient
 {
     /**
      * It's not necessary to do a separate class.
-     * You can directly create a new instance from RakServer. It depends on what you're doing.
+     * You can directly create a new instance from RakClient. It depends on what you're doing.
      */
     public function __construct(
         InternetAddress $client_address,
