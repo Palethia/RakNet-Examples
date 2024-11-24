@@ -14,7 +14,7 @@
         "palethia/raknet": "^1.0",
         "pocketmine/bedrock-protocol": "^35.0"
     },
-    "license": "GPL-3",
+    "license": "GPL-3.0",
     "autoload": {
         "psr-4": {
             "Palethia\\RaknetExamples\\": "src/"
