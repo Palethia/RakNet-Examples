@@ -24,7 +24,7 @@ namespace Palethia\RaknetExamples{
     function create_client(): void
     {
         $client = new Client(
-            InternetAddress::random(InternetAddress::INTERNET_PROTOCOL_VERSION_4),
+            InternetAddress::random(4),
             new InternetAddress("play.arabskills.net", 19132, 4)
         );
 
